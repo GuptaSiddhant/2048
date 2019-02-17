@@ -60,12 +60,12 @@ GameManager.prototype.setup = function () {
     }
 
     var msg = {
-        messageType: "SETTINGS",
+        messageType: "SETTING",
         options: {
             "width": 320, //Integer
             "height": 400, //Integer
             "mobile": true, //Boolean
-            "save": true, //Boolean
+            "save": false, //Boolean
             "score": true, //Boolean
         }
     };
